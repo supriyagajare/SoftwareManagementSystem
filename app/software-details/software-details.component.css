@@ -1,0 +1,20 @@
+* {
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(223, 46, 82);
+}
+.btn{
+    color:black;
+    background-color: #99bbff;
+    height:80px;width:100px;
+    font-size:17px;
+    font-weight:bold;
+    margin-left: 600px;
+
+}
+
+label:hover{
+    background-color: rgb(38, 204, 220);
+}

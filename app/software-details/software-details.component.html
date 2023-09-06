@@ -1,0 +1,94 @@
+<div class="backntn">
+    <a href="software-list" class="alert('BACK TO HOME')"><img src="/assets/backbtn6.png"></a>
+  </div>
+  
+
+<h2> View Software Details</h2>
+<!-- <div style="background-color:rgba(0,0,0,0.5); margin: auto; padding: 50px; padding-right: 50px; border-radius: 20px; border: 5px solid gray;">
+        <div>
+        <label> <b> Software Name: </b></label> {{software.softwareName}}
+    </div>
+    <div>
+        <label> <b> Developer: </b></label> {{software.developer}}
+    </div>
+    <div>
+        <label> <b> Price: </b></label> {{software.price}}
+    </div>
+
+    <div>
+        <label> <b> Rating: </b></label> {{software.rating}}
+    </div>
+    <div>
+        <label> <b> DesktopApplication: </b></label> {{software.isDesktopApplication}}
+    </div>
+</div> -->
+
+
+
+
+    <style>
+        /* table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        } */
+
+        /* th, td {
+            padding: 12px;
+            text-align: left;
+        } */
+/* 
+        th {
+            background-color: #f2f2f2;
+        } */
+/* 
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        } */
+
+        /* tr:hover {
+            background-color: #c33b3b;
+        }
+
+        label {
+            font-weight: bold;
+        } */
+    </style>
+
+
+
+<div style="background-color:rgba(0,0,0,0.5); margin: auto; padding: 50px; padding-right: 50px;font-size: 20px;font-family:Cursive;font-weight: bold; border-radius: 20px; border: 5px solid gray;">
+
+<table class="table-primary table table-striped table-striped-columns">
+    <tr>
+        <th colspan="2">Software Information</th>
+    </tr>
+    <tr>
+        <td><label>Software Name:</label></td>
+        <td>{{software.softwareName}}</td>
+    </tr>
+    <tr>
+        <td><label>Developer Name:</label></td>
+        <td>{{software.developerName}}</td>
+    </tr>
+    <tr>
+        <td><label>Price:</label></td>
+        <td>{{software.price}}</td>
+    </tr>
+    <tr>
+        <td><label>Rating:</label></td>
+        <td>{{software.rating}}</td>
+    </tr>
+    <tr>
+        <td><label style>Desktop Application:</label></td>
+        <td>{{software.isDesktopApplication}}</td>
+    </tr>
+</table>
+
+
+
+
+
+</div>
+<br><br>
+<button type="button"(click) = "addBooking(softwareId)"class="btn">Buy Now!</button>
